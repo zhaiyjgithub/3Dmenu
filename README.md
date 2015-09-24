@@ -20,4 +20,4 @@ What's more,I did not learn about swift programm.
 At last,I hope it can bring something fun and good to you.Thx a lot...
 --- @Kson_元基
 
-![](https://github.com/zhaiyjgithub/leftMenu/raw/master/3Dmenu.gif)  
+![](https://github.com/zhaiyjgithub/3Dmenu/raw/master/3Dmenu.gif)  
