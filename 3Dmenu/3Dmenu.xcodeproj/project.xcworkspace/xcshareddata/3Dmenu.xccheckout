@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B663B589-23D2-4270-8B8D-A96091A35CCA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>3Dmenu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F417683210D285C6C429A4D1CF97280A34F0A17F</key>
+		<string>https://github.com/zhaiyjgithub/3Dmenu.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>3Dmenu/3Dmenu.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F417683210D285C6C429A4D1CF97280A34F0A17F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhaiyjgithub/3Dmenu.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F417683210D285C6C429A4D1CF97280A34F0A17F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F417683210D285C6C429A4D1CF97280A34F0A17F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>3Dmenu</string>
+		</dict>
+	</array>
+</dict>
+</plist>

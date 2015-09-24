@@ -121,12 +121,18 @@
  *  在这里更改menu以及detailview 的 平移以及角度，并在最后设置,是否使能翻页效果，实现了直接切换
  *
  *  @param scrollView <#scrollView description#>
+ *  在这里添加反锯齿,当时是看到Kevin的微博,具体是里脊串的blog
+ *  http://adad184.com/2015/08/31/image-rotate-with-antialiasing/
+ *
+ *  当然还可以通过使用画一条透明的线段来反锯齿
+ *  http://ios.jobbole.com/82112/?from=timeline&isappinstalled=0
  */
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     CGFloat multiplier = 1.0 / CGRectGetWidth(self.menuTableView.bounds);
     CGFloat offset = scrollView.contentOffset.x * multiplier;
     CGFloat fraction = 1.0 - offset;
     self.menuTableView.layer.transform = [self roateView:fraction];
+    self.menuTableView.layer.allowsEdgeAntialiasing = true;
     self.menuTableView.alpha = fraction;
     [self roate:fraction imageView:self.imageView];
     self.containView.pagingEnabled = self.containView.contentOffset.x < (self.containView.contentSize.width - CGRectGetWidth(self.containView.frame));
